@@ -1,4 +1,8 @@
 @media only screen and (max-width: 768px) {/*768px and down*/
+  .content-100vh{
+    height: 70vh;
+    width: 100%;
+  }
   .hamburger{
     display: block;
   }
@@ -31,10 +35,6 @@
   }
   .nav-center.active{
     left:  0;
-  }
-  .content-100vh{
-    height: 70vh;
-    width: 100%;
   }
   .img-wrapper{
     width: 768px;
@@ -108,3 +108,12 @@
     width: 30%;
   }
 }
+@media screen and (max-height: 500px) {
+  .content-100vh{
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+
+
